@@ -18,16 +18,19 @@ A Next.js application with a modern folder structure using the App Directory. Th
    ```
 
 ## Navigate to the project directory:
-
-cd my-nextjs-app
+   ```bash
+   cd my-nextjs-app
+   ```
 
 ## Install dependencies:
-
+   ```bash
 npm install
+   ```
 
 ## Start the development server:
-
+   ```bash
 npm run dev
+ ```
 
 ## Usage
 
@@ -37,8 +40,8 @@ To use this Next.js application, follow these steps:
 
 ```bash
    npm run dev
-   Visit http://localhost:3000 in your browser.
 ```
+   Visit http://localhost:3000 in your browser.
 
 2. Build for production:
 
@@ -53,28 +56,16 @@ To use this Next.js application, follow these steps:
 
 ## Folder Structure
 
-my-nextjs-app/
-├── app/
-│ ├── layout.tsx
-│ ├── page.tsx
-│ ├── head.tsx
-│ ├── globals.css
-│ ├── about/
-│ ├── blog/
-│ └── dashboard/
-├── components/
-├── public/
-├── styles/
-├── utils/
-├── hooks/
-├── middleware/
-├── types/
-├── services/
-├── lib/
-├── next.config.js
-├── package.json
-├── tsconfig.json
-└── README.md
+app/: Contains routing, layout, and page components.
+components/: Global reusable components.
+public/: Static assets.
+styles/: CSS and styles.
+utils/: Utility functions.
+hooks/: Custom React hooks.
+middleware/: Middleware functions.
+types/: TypeScript types.
+services/: Business logic and API services.
+lib/: Configuration for libraries.
 
 ## Contributing
 
