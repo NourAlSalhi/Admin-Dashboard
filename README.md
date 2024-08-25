@@ -86,15 +86,15 @@ git checkout -b feature/your-feature-name
 
 3. Commit your changes:
 
-````bash
+```bash
 git commit -m "Add a descriptive commit message"
 ```
 
 4. Push to the branch:
 
 ```bash
-git push origin feature/ your-feature-name
-````
+git push origin feature/your-feature-name
+```
 
 5. Create a pull request.
    For detailed guidelines, please refer to CONTRIBUTING.md.
