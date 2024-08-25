@@ -13,24 +13,28 @@ A Next.js application with a modern folder structure using the App Directory. Th
 ## Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/username/my-nextjs-app.git
    ```
 
 ## Navigate to the project directory:
-   ```bash
-   cd my-nextjs-app
-   ```
+
+```bash
+cd my-nextjs-app
+```
 
 ## Install dependencies:
-   ```bash
+
+```bash
 npm install
-   ```
+```
 
 ## Start the development server:
-   ```bash
+
+```bash
 npm run dev
- ```
+```
 
 ## Usage
 
@@ -41,7 +45,8 @@ To use this Next.js application, follow these steps:
 ```bash
    npm run dev
 ```
-   Visit http://localhost:3000 in your browser.
+
+Visit http://localhost:3000 in your browser.
 
 2. Build for production:
 
@@ -73,22 +78,24 @@ Contributions are welcome! Please follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a feature branch:
+
    ```bash
-   git checkout -b feature/
-   your-feature-name
+   git checkout -b feature/your-feature-name
    ```
+
 3. Commit your changes:
-  ```bash
+
+````bash
 git commit -m "Add a descriptive commit message"
-    ```
+  ```
 
 4. Push to the branch:
-  ```bash
+```bash
 git push origin feature/ your-feature-name
-```
+````
 
 5. Create a pull request.
-For detailed guidelines, please refer to CONTRIBUTING.md.
+   For detailed guidelines, please refer to CONTRIBUTING.md.
 
 ## License
 
