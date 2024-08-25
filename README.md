@@ -10,6 +10,7 @@ A Next.js application with a modern folder structure using the App Directory. Th
 - [Contributing](#contributing)
 - [License](#license)
 - [About me](#about-me)
+- [Requirements](#requirements)
 
 ## Installation
 
@@ -105,6 +106,12 @@ git push origin feature/your-feature-name
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 You can copy and paste this content directly into your `README.md` file on GitHub.
+
+## Requirements
+
+- **Node.js**: Version 18.17.0 or higher is required.
+
+Make sure to switch to the appropriate Node.js version before running the development server.
 
 ## 🚀 About Me
 I'm a front-end developer... wait for more details later..
