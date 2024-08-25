@@ -9,6 +9,7 @@ A Next.js application with a modern folder structure using the App Directory. Th
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [About me](#about-me)
 
 ## Installation
 
@@ -104,3 +105,6 @@ git push origin feature/your-feature-name
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 You can copy and paste this content directly into your `README.md` file on GitHub.
+
+## 🚀 About Me
+I'm a front-end developer... wait for more details later..
