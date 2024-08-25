@@ -62,16 +62,16 @@ npm start
 
 ## Folder Structure
 
-app/: Contains routing, layout, and page components.
-components/: Global reusable components.
-public/: Static assets.
-styles/: CSS and styles.
-utils/: Utility functions.
-hooks/: Custom React hooks.
-middleware/: Middleware functions.
-types/: TypeScript types.
-services/: Business logic and API services.
-lib/: Configuration for libraries.
+- **`app/`**: Contains routing, layout, and page components.
+- **`components/`**: Global reusable components.
+- **`public/`**: Static assets.
+- **`styles/`**: CSS and styles.
+- **`utils/`**: Utility functions.
+- **`hooks/`**: Custom React hooks.
+- **`middleware/`**: Middleware functions.
+- **`types/`**: TypeScript types.
+- **`services/`**: Business logic and API services.
+- **`lib/`**: Configuration for libraries.
 
 ## Contributing
 
