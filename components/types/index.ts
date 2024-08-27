@@ -13,3 +13,9 @@ export type ImageType = FC<NextImageProps>;
 export interface SvgProps extends React.SVGProps<SVGSVGElement> {}
 
 export type SvgType = FC<SvgProps>;
+
+export interface SearchInputProps {
+  placeholder?: string;
+  onSearch: (query: string) => void;
+  className?: string;
+}
