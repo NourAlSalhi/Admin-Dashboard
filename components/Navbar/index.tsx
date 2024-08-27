@@ -12,7 +12,7 @@ const Navbar: React.FC  = () => {
   return (
     <div className="flex justify-between py-2 px-5 bg-gray-900">
       <Logo />
-      <div className="bg-white rounded-full">
+      <div className="bg-pink-700 rounded-full">
         <Image
           src="/images/profile.png"
           alt="Profile"
