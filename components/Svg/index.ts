@@ -4,3 +4,4 @@ export * from "./Billing";
 export * from "./Post";
 export * from "./Profile";
 export * from "./Setting";
+export * from "./Shortcut";
