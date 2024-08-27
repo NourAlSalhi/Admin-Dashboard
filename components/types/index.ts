@@ -9,3 +9,7 @@ export interface LogoProps extends Omit<NextImageProps, "src" | "alt"> {
 export type LogoType = FC<LogoProps>;
 
 export type ImageType = FC<NextImageProps>;
+
+export interface SvgProps extends React.SVGProps<SVGSVGElement> {}
+
+export type SvgType = FC<SvgProps>;
