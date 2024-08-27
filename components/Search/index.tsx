@@ -25,7 +25,7 @@ const SearchInput: FC<SearchInputProps> = ({
         value={query}
         onChange={handleChange}
         placeholder={placeholder}
-        className="block w-full pl-10 pr-3 py-2 border-b border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:ring-0 sm:text-sm"
+        className="block w-full bg-gray-100 pl-10 pr-3 py-2 border-b border-gray-300 rounded-md leading-5 placeholder-gray-500 focus:outline-none focus:ring-0 sm:text-sm"
       />
     </div>
   );
