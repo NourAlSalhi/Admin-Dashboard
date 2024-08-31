@@ -23,3 +23,9 @@ export interface SuggestionItemProps {
   href: string;
   shortcut?: string;
 }
+
+export interface CardItemProps {
+  label: string;
+  icon: React.ReactNode;
+  count: number;
+}

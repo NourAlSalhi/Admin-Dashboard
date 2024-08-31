@@ -6,3 +6,4 @@ export { default as SearchInput } from "./Search";
 export { default as SuggestionItem } from "./SuggestionItem";
 export * from "./types";
 export * from "./Svg";
+export { default as Card } from "./Card";
