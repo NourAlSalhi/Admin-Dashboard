@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { SuggestionItemProps } from "../types";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 const SuggestionItem: React.FC<SuggestionItemProps> = ({
   icon,
@@ -9,8 +9,8 @@ const SuggestionItem: React.FC<SuggestionItemProps> = ({
   href,
   shortcut,
 }) => {
-  const router = useRouter();
-  const isActive = router.pathname === href;
+  const pathname = usePathname();;
+  const isActive = pathname === href;
 
   return (
     <Link
@@ -18,7 +18,7 @@ const SuggestionItem: React.FC<SuggestionItemProps> = ({
       className={`flex items-center justify-between p-2 rounded-md transition-colors duration-200 cursor-pointer ${
         isActive
           ? "bg-gray-300 text-blue-500"
-          : "text-gray-600 hover:bg-gray-200"
+          : "hover:bg-gray-200"
       }`}
     >
       <div className="flex text-black items-center">
