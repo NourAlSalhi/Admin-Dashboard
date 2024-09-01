@@ -1,4 +1,4 @@
-import { SvgType } from "@/components/types";
+import type { SvgType } from "@/components/types";
 
 export const Billing: SvgType = (props) => {
   return (

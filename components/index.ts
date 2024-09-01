@@ -7,3 +7,4 @@ export { default as SuggestionItem } from "./SuggestionItem";
 export * from "./types";
 export * from "./Svg";
 export { default as Card } from "./Card";
+export {default as PostsTable} from "./PostsTable";

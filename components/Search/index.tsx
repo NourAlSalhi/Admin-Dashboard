@@ -1,6 +1,6 @@
 "use client";
 import { Search } from "../Svg";
-import { SearchInputProps } from "../types";
+import type { SearchInputProps } from "../types";
 import { ChangeEvent, FC, useState } from "react";
 
 const SearchInput: FC<SearchInputProps> = ({

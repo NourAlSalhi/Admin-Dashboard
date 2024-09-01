@@ -1,4 +1,4 @@
-import { SvgType } from "@/components/types";
+import type { SvgType } from "@/components/types";
 
 export const Comment: SvgType = (props) => {
   return (
@@ -7,7 +7,7 @@ export const Comment: SvgType = (props) => {
       width="1em"
       height="1em"
       viewBox="0 0 24 24"
-        {...props}
+      {...props}
     >
       <path
         fill="none"

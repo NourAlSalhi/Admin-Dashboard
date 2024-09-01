@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { SuggestionItemProps } from "../types";
+import type { SuggestionItemProps } from "../types";
 import { usePathname } from "next/navigation";
 
 const SuggestionItem: React.FC<SuggestionItemProps> = ({

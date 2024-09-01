@@ -1,4 +1,4 @@
-import { SvgType } from "@/components/types";
+import type { SvgType } from "@/components/types";
 
 export const Dashboard: SvgType = (props) => {
   return (
