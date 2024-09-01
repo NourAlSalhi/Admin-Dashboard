@@ -1,7 +1,7 @@
 "use client";
 import SearchInput from "../Search";
 import SuggestionItem from "../SuggestionItem";
-import { Dashboard, Categories, Billing, Profile, Post, Setting } from "../Svg";
+import { Dashboard, Categories, Billing, Profile, Posts, Setting } from "../Svg";
 
 const Sidebar = () => {
   return (
@@ -17,7 +17,7 @@ const Sidebar = () => {
             label="Dashboard"
             href="/dashboard"
           />
-          <SuggestionItem icon={<Post />} label="Posts" href="/posts" />
+          <SuggestionItem icon={<Posts />} label="Posts" href="/posts" />
           <SuggestionItem
             icon={<Categories />}
             label="Categories"

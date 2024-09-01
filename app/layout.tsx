@@ -20,10 +20,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <div className="flex h-screen">
-          <div className="hidden md:block bg-gray-100 h-full w-[250px] flex-shrink-0">
+          <div className="hidden md:block bg-slate-100 h-full w-[250px]">
             <Sidebar />
           </div>
-          <div className="flex-1 overflow-hidden p-4 md:p-5 md:max-w-[calc(100%-250px)]">
+          <div className="overflow-hidden p-4 md:p-5 w-[1140px]">
             {children}
           </div>
         </div>

@@ -1,8 +1,9 @@
-"use client"; 
-import Logo from "../Logo";
-import Image from "../Image";
+"use client";
+import Logo from "@/components/Logo";
+import Image from "@/components/Image";
 import { useState } from "react";
-const Navbar: React.FC  = () => {
+
+const Navbar: React.FC = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
