@@ -18,13 +18,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        <div className="flex h-screen">
-          <div className="hidden md:block bg-slate-100 h-full w-[250px]">
-            <Sidebar />
-          </div>
-          <div className="overflow-hidden p-4 md:p-5 w-[1140px]">
-            {children}
+        <div className="flex flex-col h-screen">
+          <Navbar />
+          <div className="flex flex-1 overflow-hidden">
+            <div className="hidden md:block bg-slate-100 w-[200px]">
+              <Sidebar />
+            </div>
+            <main className="flex-1 overflow-auto p-4 md:p-5">
+              {children}
+            </main>
           </div>
         </div>
       </body>
