@@ -1,16 +1,17 @@
-# My Next.js App
+# My Next.ts App
 
-A Next.js application with a modern folder structure using the App Directory. This project demonstrates routing, layout management, and component organization with Next.js.
+<img src="/images/screen.png" alt="" />
+
+This is a admin dashboard UI built with Next.ts, It is only the front-end interface so I just using files for the data. 
 
 ## Table of Contents
 
 - [Installation](#installation)
+- [Requirements](#requirements)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [About me](#about-me)
-- [Requirements](#requirements)
 
 ## Installation
 
@@ -40,7 +41,7 @@ npm run dev
 
 ## Usage
 
-To use this Next.js application, follow these steps:
+I use in this project{Next.js/React, TypeScript, Tailwind CSS, Recharts} To use this Next.ts application, follow these steps:
 
 1. Run the development server:
 
