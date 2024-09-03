@@ -71,7 +71,7 @@ const PostsTable: React.FC<PostsTableProps> = ({ limit = 5, title }) => {
         <button
           onClick={handlePrevPage}
           disabled={currentPage === 1}
-          className="px-2 py-1 hover:bg-gray-300 disabled:opacity-50 rounded"
+          className="px-2 py-1 hover:bg-gray-300 disabled:opacity-40 rounded"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ const PostsTable: React.FC<PostsTableProps> = ({ limit = 5, title }) => {
         <button
           onClick={handleNextPage}
           disabled={currentPage === totalPages}
-          className="px-2 py-1 hover:bg-gray-300 disabled:opacity-50 rounded"
+          className="px-2 py-1 hover:bg-gray-300 disabled:opacity-40 rounded"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
