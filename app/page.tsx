@@ -33,7 +33,7 @@ export default function Home() {
           }
         />
       </div>
-      <div className="mt-10">
+      <div className="mt-5">
       <PostsTable limit={5} title="Latest Posts"/>
       </div>
     </div>
