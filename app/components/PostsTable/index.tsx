@@ -42,8 +42,8 @@ const PostsTable: React.FC<PostsTableProps> = ({ limit = 5, title }) => {
             >
               <td className="p-3 text-sm">
                 <div className="truncate text-gray-800">
-                  {post.title.length > 20
-                    ? `${post.title.slice(0, 20)}...`
+                  {post.title.length > 30
+                    ? `${post.title.slice(0, 30)}...`
                     : post.title}
                 </div>
                 <div className="text-gray-500 text-xs mt-1 block md:hidden">
