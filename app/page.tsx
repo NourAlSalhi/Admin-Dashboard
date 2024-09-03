@@ -33,6 +33,9 @@ export default function Home() {
           }
         />
       </div>
+      <div>
+        Analytics Chart
+      </div>
       <div className="mt-5">
       <PostsTable limit={5} title="Latest Posts"/>
       </div>
