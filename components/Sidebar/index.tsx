@@ -1,7 +1,14 @@
 "use client";
 import SearchInput from "../Search";
 import SuggestionItem from "../SuggestionItem";
-import { Dashboard, Categories, Billing, Profile, Posts, Setting } from "../Svg";
+import {
+  Dashboard,
+  Categories,
+  Billing,
+  Profile,
+  Posts,
+  Setting,
+} from "../Svg";
 
 const Sidebar = () => {
   return (

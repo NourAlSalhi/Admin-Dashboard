@@ -9,16 +9,14 @@ const SuggestionItem: React.FC<SuggestionItemProps> = ({
   href,
   shortcut,
 }) => {
-  const pathname = usePathname();;
+  const pathname = usePathname();
   const isActive = pathname === href;
 
   return (
     <Link
       href={href}
       className={`flex items-center justify-between p-2 rounded-md transition-colors duration-200 cursor-pointer ${
-        isActive
-          ? "bg-gray-300 text-blue-500"
-          : "hover:bg-gray-200"
+        isActive ? "bg-gray-300 text-blue-500" : "hover:bg-gray-200"
       }`}
     >
       <div className="flex text-black items-center">

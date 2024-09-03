@@ -29,8 +29,3 @@ export interface CardItemProps {
   icon: React.ReactNode;
   count: number;
 }
-
-export interface PostsTableProps {
-  limit?: number;
-  title?: string;
-}
