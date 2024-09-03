@@ -1,5 +1,5 @@
-import { Card, Comment, Folder, Post, PostsTable, Profile } from "@/components";
-import { AnalyticsChart } from "./components";
+import { Card, Comment, Folder, Post, Profile } from "@/components";
+import { AnalyticsChart, PostsTable } from "./components";
 
 export default function Home() {
   return (
@@ -35,10 +35,10 @@ export default function Home() {
         />
       </div>
       <div>
-      <AnalyticsChart/>
+        <AnalyticsChart />
       </div>
       <div className="mt-5">
-      <PostsTable limit={5} title="Latest Posts"/>
+        <PostsTable limit={5} title="Latest Posts" />
       </div>
     </div>
   );
