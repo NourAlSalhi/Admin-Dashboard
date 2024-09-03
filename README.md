@@ -10,7 +10,6 @@ This is a admin dashboard UI built with Next.ts, It is only the front-end interf
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
 - [About me](#about-me)
 
 ## Installation
@@ -38,6 +37,12 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Requirements
+
+- **Node.js**: Version 18.17.0 or higher is required.
+
+Make sure to switch to the appropriate Node.js version before running the development server.
 
 ## Usage
 
@@ -76,43 +81,6 @@ npm start
 - **`services/`**: Business logic and API services.
 - **`lib/`**: Configuration for libraries.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a feature branch:
-
-```bash
-git checkout -b feature/your-feature-name
-```
-
-3. Commit your changes:
-
-```bash
-git commit -m "Add a descriptive commit message"
-```
-
-4. Push to the branch:
-
-```bash
-git push origin feature/your-feature-name
-```
-
-5. Create a pull request.
-   For detailed guidelines, please refer to CONTRIBUTING.md.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-You can copy and paste this content directly into your `README.md` file on GitHub.
-
-## Requirements
-
-- **Node.js**: Version 18.17.0 or higher is required.
-
-Make sure to switch to the appropriate Node.js version before running the development server.
 
 ## 🚀 About Me
 I'm a front-end developer... wait for more details later..
