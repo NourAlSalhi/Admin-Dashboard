@@ -6,8 +6,7 @@ import {
   YAxis,
   CartesianGrid,
   ResponsiveContainer,
-} from "recharts";
-
+} from "@/lib/@recharts";
 import data from "@/content/analytics";
 
 const AnalyticsChart = () => {
