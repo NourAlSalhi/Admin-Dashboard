@@ -1,12 +1,30 @@
+"use client";
 import posts from "@/content/posts";
 import { Post } from "@/types/posts";
 import type { PostsTableProps } from "../types";
+import { useState } from "react";
 
-const PostsTable: React.FC<PostsTableProps> = ({ limit, title }) => {
+const PostsTable: React.FC<PostsTableProps> = ({ limit = 5, title }) => {
+  const [currentPage, setCurrentPage] = useState(1);
   const sortedPosts: Post[] = [...posts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
-  const filteredPosts = limit ? sortedPosts.slice(0, limit) : sortedPosts;
+
+  const totalPages = Math.ceil(sortedPosts.length / limit);
+  const startIndex = (currentPage - 1) * limit;
+  const currentPosts = sortedPosts.slice(startIndex, startIndex + limit);
+
+  const handlePrevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
 
   return (
     <div className="w-full overflow-x-auto">
@@ -21,7 +39,7 @@ const PostsTable: React.FC<PostsTableProps> = ({ limit, title }) => {
           </tr>
         </thead>
         <tbody>
-          {filteredPosts.map((post) => (
+          {currentPosts.map((post) => (
             <tr key={post.id} className="border-b">
               <td className="p-3 text-sm text-gray-700">
                 <div className="truncate font-semibold text-gray-800">
@@ -44,6 +62,25 @@ const PostsTable: React.FC<PostsTableProps> = ({ limit, title }) => {
           ))}
         </tbody>
       </table>
+      <div className="flex justify-center gap-5 items-center mt-4">
+        <button
+          onClick={handlePrevPage}
+          disabled={currentPage === 1}
+          className="px-3 py-1 bg-gray-200 hover:bg-gray-300 disabled:opacity-50 rounded"
+        >
+          Previous
+        </button>
+        <span className="text-sm text-gray-700">
+          Page {currentPage} of {totalPages}
+        </span>
+        <button
+          onClick={handleNextPage}
+          disabled={currentPage === totalPages}
+          className="px-3 py-1 bg-gray-200 hover:bg-gray-300 disabled:opacity-50 rounded"
+        >
+          Next
+        </button>
+      </div>
     </div>
   );
 };
