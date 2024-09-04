@@ -1,6 +1,6 @@
 "use client";
 import posts from "@/content/posts";
-import { Post } from "@/types/posts";
+import { Post } from "@/types";
 import type { PostsTableProps } from "../types";
 import { useState } from "react";
 import Link from "next/link";

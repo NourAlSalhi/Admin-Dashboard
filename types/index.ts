@@ -1,4 +1,22 @@
-/* Contains TypeScript type definitions for the application.
-
-index.d.ts: Global type definitions.
-api.d.ts: Type definitions related to API responses or requests. */
+export interface Post {
+    id: string;
+    title: string;
+    body: string;
+    author: string;
+    date: string;
+    comments: PostComment[];
+  }
+  
+  export interface PostComment {
+    id: string;
+    text: string;
+    username: string;
+  }
+  
+export interface AnalyticsItem {
+    name: string;
+    uv: number;
+    pv: number;
+    amt: number;
+  }
+  
