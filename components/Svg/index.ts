@@ -9,3 +9,4 @@ export * from "./Search";
 export * from "./Folder";
 export * from "./Post";
 export * from "./Comment";
+export * from "./LeftArrow";
