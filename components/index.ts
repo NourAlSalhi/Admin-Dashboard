@@ -7,3 +7,4 @@ export * from "./types";
 export * from "./Svg";
 export { default as Card } from "./Card";
 export { default as SuggestionItem } from "./SuggestionItem";
+export { default as BackButton } from "./BackButton";

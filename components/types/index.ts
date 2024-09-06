@@ -29,3 +29,8 @@ export interface CardItemProps {
   icon: React.ReactNode;
   count: number;
 }
+
+export interface BackButtonProps {
+  href?: string;
+  title?: string;
+}
