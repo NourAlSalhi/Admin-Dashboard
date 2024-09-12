@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import type { ImageProps as NextImageProps } from "next/image";
+import { UseFormRegister, FieldErrors ,UseFormSetValue} from "react-hook-form";
 
 export interface LogoProps extends Omit<NextImageProps, "src" | "alt"> {
   src?: string;
@@ -33,4 +34,32 @@ export interface CardItemProps {
 export interface BackButtonProps {
   href?: string;
   title?: string;
+}
+
+export interface TextInputProps {
+  label: string;
+  placeholder: string;
+  register: UseFormRegister<any>;
+  name: string;
+  errors: FieldErrors<any>;
+  maxLength?: number;
+  type?: string;
+}
+
+export interface TextAreaInputProps {
+  label: string;
+  placeholder: string;
+  register: UseFormRegister<any>;
+  name: string;
+  errors: FieldErrors<any>;
+  maxLength?: number;
+}
+
+export interface DateInputProps {
+  label: string;
+  register: UseFormRegister<any>;
+  name: string;
+  errors: FieldErrors<any>;
+  setValue: UseFormSetValue<any>;
+  control: any;
 }

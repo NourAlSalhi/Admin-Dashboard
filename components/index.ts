@@ -8,3 +8,6 @@ export * from "./Svg";
 export { default as Card } from "./Card";
 export { default as SuggestionItem } from "./SuggestionItem";
 export { default as BackButton } from "./BackButton";
+export { default as DateInput } from "./DateInput";
+export { default as TextInput } from "./Input";
+export { default as TextAreaInput } from "./TextAreaInput";

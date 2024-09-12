@@ -20,3 +20,9 @@ export interface AnalyticsItem {
     amt: number;
   }
   
+export interface IFormInput {
+  Title: string;
+  Body: string;
+  Author: string;
+  Date: string;
+}
